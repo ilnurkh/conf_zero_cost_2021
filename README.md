@@ -2,6 +2,8 @@
 # Оптимизируем на примере dot-product
 https://events.yandex.ru/events/c-zero-cost-conf?from=speaker#talks
 
+Repo includes pdf with slides and links to Compiler Exploerer (godbolt)
+
 Build system - from https://github.com/catboost/catboost
 
 To build - you can use catboost repo and run "ya make" with this project added into it

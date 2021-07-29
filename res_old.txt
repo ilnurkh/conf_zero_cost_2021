@@ -1,0 +1,252 @@
+Start init
+Done init
+-2.63832	TNaive
+-2.63832	TNaiveOutlined
+-2.63832	TCompileTimehDim<64>
+-2.63832	TCompileTime64hDimOutlined
+0	TCLibChecker
+-2.63832	TForceBy4
+-2.63832	TForceBy4Last
+-2.63832	TNaiveSSE4UnsafeOpt
+-2.63832	TBy4SSE4UnsafeOpt
+-2.63832	TNaiveAvxAuto
+-2.63832	TNaiveAvx2Auto
+-2.63832	TNaiveAvx512Auto
+-2.63832	TDetectOptimistic
+-2.63832	TDetectPessimistic
+-2.63832	TDetectJump
+-2.63832	TVirtualJump
+-2.63832	8.22633	TNaive
+-2.63832	8.22633	TMultiDotFromSingle<TNaive>
+-2.63832	8.22633	TMultiDotAll
+-2.63832	8.22633	TMultiDotCTStep<1>
+-2.63832	8.22633	TMultiDotCTStep<2>
+-2.63832	8.22633	TMultiDotCTStepOutlined<2>
+-2.63832	8.22633	TMultiDotCTStepOutlinedV2<2>
+-2.63832	8.22633	TMultiDotCTStepV3
+-2.63832	8.22633	TMultiDotCTStepV2FloatOpts_SSE42<2>
+-2.63832	8.22633	TMultiDotCTStepV2FloatOpts_AVX<2>
+-2.63832	8.22633	TMultiDotCTStepV2FloatOpts_AVX2<2>
+-2.63832	8.22633	TMultiDotCTStepV2FloatOpts_AVX512<2>
+-2.63832	8.22633	TMultiDotV3_ASM_AVX512
+531.675	863.36	TPackedProductUnpack<TNaive>
+531.675	863.36	TPackedProductUnpack<TVirtualJump>
+531.675	863.36	TPackedProductInlined
+531.675	863.36	TPackedProductInlinedAvx512Auto
+531.675	863.36	TPackedProductInlinedWithMath
+531.675	863.36	TPackedProductInlinedWithMathAvx512Auto
+2021-05-21 03:48:28
+Running ./for_conf_abstr_level
+Run on (32 X 2095.08 MHz CPU s)
+CPU Caches:
+  L1 Data 32 KiB (x32)
+  L1 Instruction 32 KiB (x32)
+  L2 Unified 4096 KiB (x32)
+  L3 Unified 16384 KiB (x32)
+Load Average: 0.53, 0.41, 0.29
+--------------------------------------------------------------------------------------------------------
+Benchmark                                                              Time             CPU   Iterations
+--------------------------------------------------------------------------------------------------------
+DotPr_TCompileTimehDim64/64                                         2.09 ms         2.09 ms          335
+DotPr_TCompileTime64hDimOutlined/64                                 2.19 ms         2.19 ms          334
+DotPr_TCLibChecker/64                                              0.610 ms        0.610 ms         1164
+DotPr_TCLibChecker/128                                             0.912 ms        0.912 ms          758
+DotPr_TCLibChecker/1024                                             4.34 ms         4.34 ms          163
+DotPr_TNaive/64                                                     2.09 ms         2.09 ms          335
+DotPr_TNaive/128                                                    3.73 ms         3.72 ms          197
+DotPr_TNaive/1024                                                   15.4 ms         15.4 ms           46
+DotPrD_TNaive/64                                                    1.42 ms         1.42 ms          493
+DotPrD_TNaive/128                                                   2.55 ms         2.54 ms          294
+DotPrD_TNaive/1024                                                  8.35 ms         8.35 ms           81
+DotPr_TNaiveOutlined/64                                             2.08 ms         2.08 ms          330
+DotPr_TNaiveOutlined/128                                            3.51 ms         3.51 ms          187
+DotPr_TNaiveOutlined/1024                                           15.1 ms         15.1 ms           47
+DotPr_TNaiveSSE4UnsafeOpt/64                                       0.972 ms        0.972 ms          727
+DotPr_TNaiveSSE4UnsafeOpt/128                                       1.89 ms         1.89 ms          374
+DotPr_TNaiveSSE4UnsafeOpt/1024                                      6.33 ms         6.33 ms          110
+DotPr_TForceBy4/64                                                  1.16 ms         1.16 ms          610
+DotPr_TForceBy4/128                                                 2.07 ms         2.07 ms          322
+DotPr_TForceBy4/1024                                                7.00 ms         7.00 ms          101
+DotPr_TForceBy4Last/64                                              1.71 ms         1.71 ms          399
+DotPr_TForceBy4Last/128                                             2.38 ms         2.38 ms          295
+DotPr_TForceBy4Last/1024                                            7.27 ms         7.27 ms           96
+DotPr_TBy4SSE4UnsafeOpt/64                                         0.996 ms        0.996 ms          719
+DotPr_TBy4SSE4UnsafeOpt/128                                         1.89 ms         1.89 ms          366
+DotPr_TBy4SSE4UnsafeOpt/1024                                        6.68 ms         6.68 ms          105
+DotPr_TNaiveAvxAuto/64                                             0.736 ms        0.736 ms          928
+DotPr_TNaiveAvxAuto/128                                             1.27 ms         1.27 ms          555
+DotPr_TNaiveAvxAuto/1024                                            5.58 ms         5.58 ms          123
+DotPr_TNaiveAvx2Auto/64                                            0.735 ms        0.735 ms          947
+DotPr_TNaiveAvx2Auto/128                                            1.30 ms         1.30 ms          539
+DotPr_TNaiveAvx2Auto/1024                                           5.50 ms         5.50 ms          125
+DotPr_TNaiveAvx512Auto/64                                          0.624 ms        0.624 ms         1145
+DotPr_TNaiveAvx512Auto/128                                          1.03 ms         1.03 ms          676
+DotPr_TNaiveAvx512Auto/1024                                         5.43 ms         5.43 ms          131
+DotPr_TDetectOptimistic/64                                         0.618 ms        0.618 ms         1084
+DotPr_TDetectOptimistic/128                                         1.08 ms         1.07 ms          676
+DotPr_TDetectOptimistic/1024                                        5.45 ms         5.45 ms          126
+DotPr_TDetectPessimistic/64                                        0.793 ms        0.793 ms          822
+DotPr_TDetectPessimistic/128                                        1.14 ms         1.14 ms          618
+DotPr_TDetectPessimistic/1024                                       5.55 ms         5.55 ms          128
+DotPr_TDetectJump/64                                               0.632 ms        0.632 ms         1104
+DotPr_TDetectJump/128                                               1.07 ms         1.07 ms          669
+DotPr_TDetectJump/1024                                              5.47 ms         5.47 ms          126
+DotPr_TVirtualJump/64                                              0.624 ms        0.624 ms         1120
+DotPr_TVirtualJump/128                                              1.09 ms         1.09 ms          641
+DotPr_TVirtualJump/1024                                             5.40 ms         5.39 ms          129
+DotPrMulti_TMultiDotAll/64                                          10.1 ms         10.1 ms           70
+DotPrMulti_TMultiDotAll/128                                         21.1 ms         21.1 ms           33
+DotPrMulti_TMultiDotAll/1024                                         237 ms          237 ms            3
+DotPrMulti_TMultiDotFromSingle_Naive/64                             2.03 ms         2.03 ms          334
+DotPrMulti_TMultiDotFromSingle_Naive/128                            3.43 ms         3.43 ms          201
+DotPrMulti_TMultiDotFromSingle_Naive/1024                           15.0 ms         15.0 ms           45
+DotPrMulti_TMultiDotFromSingle_NaiveOutlined/64                     2.03 ms         2.03 ms          338
+DotPrMulti_TMultiDotFromSingle_NaiveOutlined/128                    3.50 ms         3.50 ms          202
+DotPrMulti_TMultiDotFromSingle_NaiveOutlined/1024                   14.8 ms         14.8 ms           47
+DotPrMulti_TMultiDotCTStep_1/64                                     2.23 ms         2.23 ms          314
+DotPrMulti_TMultiDotCTStep_1/128                                    3.77 ms         3.77 ms          185
+DotPrMulti_TMultiDotCTStep_1/1024                                   15.1 ms         15.1 ms           46
+DotPrMulti_TMultiDotCTStepV3/64                                     1.15 ms         1.15 ms          619
+DotPrMulti_TMultiDotCTStepV3/128                                    1.91 ms         1.91 ms          364
+DotPrMulti_TMultiDotCTStepV3/1024                                   5.21 ms         5.21 ms          137
+DotPrMulti_TMultiDotCTStepV3FloatOpts_SSE42/64                     0.760 ms        0.760 ms          899
+DotPrMulti_TMultiDotCTStepV3FloatOpts_SSE42/128                     1.35 ms         1.35 ms          521
+DotPrMulti_TMultiDotCTStepV3FloatOpts_SSE42/1024                    4.62 ms         4.62 ms          149
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX/64                       0.677 ms        0.677 ms         1026
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX/128                       1.14 ms         1.14 ms          615
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX/1024                      4.40 ms         4.40 ms          158
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX2/64                      0.647 ms        0.647 ms         1078
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX2/128                      1.15 ms         1.15 ms          612
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX2/1024                     4.43 ms         4.43 ms          159
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX512/64                    0.549 ms        0.549 ms         1247
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX512/128                   0.988 ms        0.988 ms          714
+DotPrMulti_TMultiDotCTStepV3FloatOpts_AVX512/1024                   4.07 ms         4.07 ms          172
+DotPrMulti_TMultiDotV3_ASM_PREFETCH_AVX512/64                      0.478 ms        0.478 ms         1490
+DotPrMulti_TMultiDotV3_ASM_PREFETCH_AVX512/128                     0.934 ms        0.934 ms          762
+DotPrMulti_TMultiDotV3_ASM_PREFETCH_AVX512/1024                     3.93 ms         3.93 ms          175
+DotPrMulti_TMultiDotV3_ASM_AVX512/64                               0.493 ms        0.493 ms         1431
+DotPrMulti_TMultiDotV3_ASM_AVX512/128                              0.939 ms        0.939 ms          740
+DotPrMulti_TMultiDotV3_ASM_AVX512/1024                              4.08 ms         4.08 ms          170
+DotPrMulti_TMultiDotCTStep_2/64                                     1.54 ms         1.54 ms          455
+DotPrMulti_TMultiDotCTStep_2/128                                    2.49 ms         2.49 ms          276
+DotPrMulti_TMultiDotCTStep_2/1024                                   8.22 ms         8.22 ms           86
+DotPrMulti_TMultiDotCTStepOutlined_2/64                             1.48 ms         1.48 ms          469
+DotPrMulti_TMultiDotCTStepOutlined_2/128                            2.47 ms         2.47 ms          284
+DotPrMulti_TMultiDotCTStepOutlined_2/1024                           8.25 ms         8.25 ms           84
+DotPrMulti_TMultiDotCTStepOutlinedV2_2/64                           1.39 ms         1.39 ms          499
+DotPrMulti_TMultiDotCTStepOutlinedV2_2/128                          2.33 ms         2.33 ms          299
+DotPrMulti_TMultiDotCTStepOutlinedV2_2/1024                         8.12 ms         8.12 ms           85
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_2/64                   0.838 ms        0.838 ms          832
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_2/128                   1.39 ms         1.39 ms          508
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_2/1024                  5.04 ms         5.04 ms          138
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_2/64                     0.622 ms        0.622 ms         1146
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_2/128                     1.11 ms         1.11 ms          634
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_2/1024                    4.71 ms         4.71 ms          150
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_2/64                    0.609 ms        0.609 ms         1140
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_2/128                    1.10 ms         1.10 ms          641
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_2/1024                   4.70 ms         4.70 ms          150
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_2/64                  0.548 ms        0.548 ms         1264
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_2/128                 0.999 ms        0.999 ms          720
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_2/1024                 4.32 ms         4.32 ms          160
+DotPrMulti_TMultiDotCTStep_3/64                                     1.39 ms         1.39 ms          512
+DotPrMulti_TMultiDotCTStep_3/128                                    2.37 ms         2.37 ms          300
+DotPrMulti_TMultiDotCTStep_3/1024                                   6.45 ms         6.45 ms          106
+DotPrMulti_TMultiDotCTStepOutlined_3/64                             1.47 ms         1.47 ms          492
+DotPrMulti_TMultiDotCTStepOutlined_3/128                            2.28 ms         2.28 ms          303
+DotPrMulti_TMultiDotCTStepOutlined_3/1024                           6.37 ms         6.37 ms          109
+DotPrMulti_TMultiDotCTStepOutlinedV2_3/64                           1.32 ms         1.32 ms          535
+DotPrMulti_TMultiDotCTStepOutlinedV2_3/128                          2.10 ms         2.10 ms          337
+DotPrMulti_TMultiDotCTStepOutlinedV2_3/1024                         6.03 ms         6.03 ms          115
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_3/64                   0.817 ms        0.817 ms          843
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_3/128                   1.40 ms         1.40 ms          503
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_3/1024                  4.68 ms         4.68 ms          149
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_3/64                     0.617 ms        0.617 ms         1150
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_3/128                     1.15 ms         1.15 ms          603
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_3/1024                    4.56 ms         4.56 ms          154
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_3/64                    0.617 ms        0.617 ms         1146
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_3/128                    1.13 ms         1.13 ms          623
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_3/1024                   4.45 ms         4.45 ms          157
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_3/64                  0.542 ms        0.542 ms         1305
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_3/128                 0.980 ms        0.980 ms          720
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_3/1024                 4.15 ms         4.15 ms          166
+DotPrMulti_TMultiDotCTStep_4/64                                     1.29 ms         1.29 ms          557
+DotPrMulti_TMultiDotCTStep_4/128                                    2.41 ms         2.41 ms          293
+DotPrMulti_TMultiDotCTStep_4/1024                                   6.38 ms         6.38 ms          113
+DotPrMulti_TMultiDotCTStepOutlined_4/64                             1.31 ms         1.31 ms          536
+DotPrMulti_TMultiDotCTStepOutlined_4/128                            2.39 ms         2.39 ms          291
+DotPrMulti_TMultiDotCTStepOutlined_4/1024                           6.37 ms         6.37 ms          111
+DotPrMulti_TMultiDotCTStepOutlinedV2_4/64                           1.18 ms         1.18 ms          609
+DotPrMulti_TMultiDotCTStepOutlinedV2_4/128                          1.94 ms         1.94 ms          346
+DotPrMulti_TMultiDotCTStepOutlinedV2_4/1024                         5.20 ms         5.20 ms          133
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_4/64                   0.770 ms        0.770 ms          906
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_4/128                   1.36 ms         1.36 ms          520
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_4/1024                  4.60 ms         4.60 ms          151
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_4/64                     0.628 ms        0.628 ms         1108
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_4/128                     1.14 ms         1.14 ms          620
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_4/1024                    4.49 ms         4.49 ms          158
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_4/64                    0.637 ms        0.637 ms         1126
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_4/128                    1.16 ms         1.16 ms          602
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_4/1024                   4.43 ms         4.43 ms          158
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_4/64                  0.540 ms        0.540 ms         1280
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_4/128                  1.01 ms         1.01 ms          705
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_4/1024                 4.24 ms         4.24 ms          164
+DotPrMulti_TMultiDotCTStep_5/64                                     1.22 ms         1.22 ms          582
+DotPrMulti_TMultiDotCTStep_5/128                                    2.15 ms         2.15 ms          325
+DotPrMulti_TMultiDotCTStep_5/1024                                   8.37 ms         8.37 ms           79
+DotPrMulti_TMultiDotCTStepOutlined_5/64                             1.20 ms         1.20 ms          573
+DotPrMulti_TMultiDotCTStepOutlined_5/128                            2.22 ms         2.22 ms          318
+DotPrMulti_TMultiDotCTStepOutlined_5/1024                           8.43 ms         8.43 ms           85
+DotPrMulti_TMultiDotCTStepOutlinedV2_5/64                           1.11 ms         1.11 ms          625
+DotPrMulti_TMultiDotCTStepOutlinedV2_5/128                          1.88 ms         1.88 ms          373
+DotPrMulti_TMultiDotCTStepOutlinedV2_5/1024                         4.94 ms         4.94 ms          140
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_5/64                   0.811 ms        0.811 ms          881
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_5/128                   1.37 ms         1.37 ms          493
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_5/1024                  4.43 ms         4.43 ms          158
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_5/64                     0.714 ms        0.714 ms          997
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_5/128                     1.16 ms         1.16 ms          591
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_5/1024                    4.33 ms         4.33 ms          161
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_5/64                    0.722 ms        0.722 ms          993
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_5/128                    1.17 ms         1.17 ms          607
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_5/1024                   4.31 ms         4.31 ms          161
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_5/64                  0.515 ms        0.515 ms         1361
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_5/128                  1.02 ms         1.02 ms          677
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_5/1024                 4.22 ms         4.22 ms          172
+DotPrMulti_TMultiDotCTStep_6/64                                     1.19 ms         1.19 ms          601
+DotPrMulti_TMultiDotCTStep_6/128                                    2.14 ms         2.14 ms          333
+DotPrMulti_TMultiDotCTStep_6/1024                                   8.39 ms         8.39 ms           81
+DotPrMulti_TMultiDotCTStepOutlined_6/64                             1.18 ms         1.18 ms          591
+DotPrMulti_TMultiDotCTStepOutlined_6/128                            2.09 ms         2.09 ms          326
+DotPrMulti_TMultiDotCTStepOutlined_6/1024                           8.53 ms         8.53 ms           87
+DotPrMulti_TMultiDotCTStepOutlinedV2_6/64                          0.792 ms        0.792 ms          885
+DotPrMulti_TMultiDotCTStepOutlinedV2_6/128                          1.40 ms         1.40 ms          518
+DotPrMulti_TMultiDotCTStepOutlinedV2_6/1024                         4.39 ms         4.39 ms          160
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_6/64                   0.801 ms        0.801 ms          853
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_6/128                   1.36 ms         1.36 ms          522
+DotPrMulti_TMultiDotCTStepV2FloatOpts_SSE42_6/1024                  4.45 ms         4.45 ms          157
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_6/64                     0.794 ms        0.794 ms          880
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_6/128                     1.34 ms         1.34 ms          523
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX_6/1024                    4.42 ms         4.42 ms          159
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_6/64                    0.792 ms        0.792 ms          880
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_6/128                    1.39 ms         1.39 ms          511
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX2_6/1024                   4.49 ms         4.49 ms          157
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_6/64                  0.795 ms        0.795 ms          876
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_6/128                  1.37 ms         1.37 ms          515
+DotPrMulti_TMultiDotCTStepV2FloatOpts_AVX512_6/1024                 4.40 ms         4.40 ms          158
+DotPrMultiPacked_Packed_Naive/64                                    1.89 ms         1.89 ms          380
+DotPrMultiPacked_Packed_Naive/128                                   3.08 ms         3.08 ms          225
+DotPrMultiPacked_Packed_Naive/1024                                  19.5 ms         19.5 ms           35
+DotPrMultiPacked_Packed_Virtual/64                                  1.47 ms         1.47 ms          484
+DotPrMultiPacked_Packed_Virtual/128                                 2.00 ms         2.00 ms          353
+DotPrMultiPacked_Packed_Virtual/1024                                7.78 ms         7.78 ms           88
+DotPrMultiPacked_TPackedProductInlined/64                           2.05 ms         2.05 ms          340
+DotPrMultiPacked_TPackedProductInlined/128                          3.07 ms         3.07 ms          232
+DotPrMultiPacked_TPackedProductInlined/1024                         15.6 ms         15.6 ms           44
+DotPrMultiPacked_TPackedProductInlinedAvx512Auto/64                 1.89 ms         1.89 ms          382
+DotPrMultiPacked_TPackedProductInlinedAvx512Auto/128                2.97 ms         2.97 ms          239
+DotPrMultiPacked_TPackedProductInlinedAvx512Auto/1024               15.9 ms         15.9 ms           42
+DotPrMultiPacked_TPackedProductInlinedWithMath/64                   1.91 ms         1.91 ms          368
+DotPrMultiPacked_TPackedProductInlinedWithMath/128                  2.94 ms         2.94 ms          225
+DotPrMultiPacked_TPackedProductInlinedWithMath/1024                 15.7 ms         15.7 ms           45
+DotPrMultiPacked_TPackedProductInlinedWithMathAvx512Auto/64         1.94 ms         1.94 ms          350
+DotPrMultiPacked_TPackedProductInlinedWithMathAvx512Auto/128        3.19 ms         3.19 ms          229
+DotPrMultiPacked_TPackedProductInlinedWithMathAvx512Auto/1024       16.7 ms         16.7 ms           44

@@ -24,7 +24,7 @@ float TDetectOptimistic::DotProduct(const float* a, const float* b, size_t dim) 
 
 float TDetectPessimistic::DotProduct(const float* a, const float* b, size_t dim) {
     if (TRuntimeCpuInfoDispatch::HaveSse4Only) {
-        TBy4SSE4UnsafeOpt::DotProduct(a, b, dim);
+        return TBy4SSE4UnsafeOpt::DotProduct(a, b, dim);
     }
     if (TRuntimeCpuInfoDispatch::HaveAvxOnly) {
         return TNaiveAvxAuto::DotProduct(a, b, dim);
